@@ -1,15 +1,17 @@
 body{
     margin: 0;
     font-family: "Roboto Mono", monospace;
+    font-size: 18px;
+    line-height: 180%;
 }
 
 header{
     background-color: black;
     max-width: 100%;
-    max-height: 100vh;
+    min-height: auto;
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    margin: 0 auto;
+    padding: 40px 80px;
 }
 
 h1, h2{
@@ -34,11 +36,55 @@ header img{
 }
 
 main{
-    max-width: 90%;
+    max-width: 100%;
     margin: 0 auto;
-    padding: 10px 20px 30px 40px;
+    padding: 40px 80px;
 }
 
 main img{
     max-width: 100%;
+}
+
+h2{
+    font-size: 40px;
+}
+
+a{
+    color: grey;
+}
+
+a:hover{
+    background-color: #252525;
+    color: white;
+}
+
+footer{
+    background-color: black;
+    max-width: 100%;
+    min-height: auto;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 80px;
+    color: white;
+}
+
+footer p{
+    margin: 0;
+}
+
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    background-color: white;
+    color: black;    
+    }
+
+.uppercase{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 20px 0px 0px;
 }
